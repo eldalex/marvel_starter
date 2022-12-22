@@ -2,6 +2,9 @@
   "name": "marvel",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -10,8 +13,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1",
-    "node": "16.x"
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
